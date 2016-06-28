@@ -4,6 +4,6 @@
 		echo '$a is positive.';
 	} 
 	else {
-		echo '$a is negative';
+		echo '$a is negative';//字串輸出
 	}
 ?>

@@ -10,5 +10,5 @@ function ShowStar($iCount)
 }
 
 $iHowMany = 3;
-ShowStar($iHowMany);
+ShowStar($iHowMany);//呼叫副程式並代入參數
 ?>

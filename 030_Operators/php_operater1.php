@@ -1,5 +1,5 @@
 <?php
 	$a = "I love ";
 	$b = "you";
-	echo $a . $b;
+	echo $a . $b; // I love you
 ?> 

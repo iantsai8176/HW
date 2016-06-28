@@ -6,7 +6,7 @@ function ShowStar($iCount, $sWhat = "*")
 		echo "iCount > 0 please";
 		return;
 	}
-	if ($iCount > 20)
+	if ($iCount > 20)//若iCount大於20，回傳並跳出副程式
 	{
 		echo "iCount <= 20 please";
 		return;
@@ -20,6 +20,6 @@ function ShowStar($iCount, $sWhat = "*")
 	echo $result;
 }
 
-$iHowMany = 2;
+$iHowMany = 0;
 ShowStar($iHowMany);
 ?>

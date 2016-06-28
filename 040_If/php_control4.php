@@ -1,5 +1,5 @@
 <?php
-	header("content-type: text/html; charset=utf-8");
+	header("content-type: text/html; charset=utf-8");//直接從給的數值判斷
 	$num = 3;
 	switch ($num){
 		case 0:

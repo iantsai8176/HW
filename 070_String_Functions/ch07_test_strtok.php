@@ -1,6 +1,6 @@
 <?php
 $showStr = "Genius is|one/percent inspiration and ninety-nine percent perspiration.";
-$s = strtok($showStr, " ");
+$s = strtok($showStr, " ");//切割字串
 while ($s != "")
 {
    echo $s. "*" . "<br>";

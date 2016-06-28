@@ -9,6 +9,6 @@ function test($i) {
 
 $x = 2;
 $p = "test";
-echo $p($x);
+echo $p($x);//使用變數當副程式呼叫
 
 ?>

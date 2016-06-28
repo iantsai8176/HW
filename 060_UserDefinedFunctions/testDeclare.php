@@ -6,7 +6,7 @@ function DrawLine() {
 
 register_tick_function("DrawLine");
 
-declare (ticks = 3) {
+declare (ticks = 3) {//每執行三次code，就去執行register_tick_function函數
 	echo "1<br>";
 	echo "2<br>";
 	echo "3<br>";

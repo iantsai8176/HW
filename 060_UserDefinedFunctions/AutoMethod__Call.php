@@ -1,6 +1,6 @@
 <?php
 
-$obj = new CTest();
+$obj = new CTest();//類別物件
 $obj->Foo(1, 2, 3, 4);
 
 

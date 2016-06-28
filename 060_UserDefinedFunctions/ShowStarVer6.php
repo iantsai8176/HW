@@ -1,13 +1,13 @@
 <?php
 
 function ShowStar() {
-	$args = func_get_args();
+	$args = func_get_args();//回傳陣列參數
 	
 	if (!isset($args[0]))
 		$args[0] = 5;
 	if (!isset($args[1]))
-		$args[1] = "*";
-	ShowStar_all($args[0], $args[1]);
+		$args[1] = "+";
+	ShowStar_all($args[0], $args[1]);//參數(5,+)
 }
 
 function ShowStar_all($iCount, $sWhat = "*")

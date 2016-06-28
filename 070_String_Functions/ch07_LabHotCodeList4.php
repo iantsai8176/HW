@@ -4,12 +4,12 @@ $f = fopen("pick3.txt", "r");
 while (!feof($f))
 {
 	$line = fgets($f);
-	$sData .= Trim($line);
+	$sData .= Trim($line);//移除前後空白
 }
 fclose($f);
 echo HotCodeList($sData);
 
-
+//使用副程式呼叫
 function HotCodeList($sData)
 {
 	$result = "01234567890";

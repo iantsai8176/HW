@@ -1,9 +1,9 @@
 <?php
-if (isset ( $_POST ["btnOK"] )) {
+if (isset ( $_POST ["btnOK"] )) {//檢查
 	processFile ( $_FILES ["file1"] );
 }
 function processFile($objFile) {
-	if ($objFile ["error"] != 0) {
+	if ($objFile ["error"] != 0) {//objFile["error"]錯誤>0
 		echo "Upload Fail! ";
 		echo "<a href='javascript:window.history.back();'>Back</a>";
 		return;

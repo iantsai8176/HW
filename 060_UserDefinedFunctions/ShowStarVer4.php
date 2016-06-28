@@ -20,7 +20,7 @@ function ShowStar($iCount, $sWhat = "*")
 		echo "iCount > 0 please.";
 	}
 }
-
+//巢狀IF
 $iHowMany = 21;
 ShowStar($iHowMany);
 ?>
