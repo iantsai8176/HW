@@ -1,5 +1,5 @@
 <?php
-  define("test", 123);
+  define("test", 123); //定義test為123
   echo test, "<br>";
   
 ?>
